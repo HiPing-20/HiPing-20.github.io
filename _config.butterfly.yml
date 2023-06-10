@@ -756,7 +756,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -771,6 +771,12 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+  - 千里之行，始于足下！
+  - 多看书，多看报；少玩电脑，多睡觉
+  - 不见钱塘潮信来，何日能知我是我
+  - 是啊，欲买桂花同载酒，终不似，少年游
+  - 不要为了越狱而放弃升级的乐趣
+  - ！！！说着反要我以所，心开不为因
 
 # Loading Animation (加載動畫)
 preloader:
