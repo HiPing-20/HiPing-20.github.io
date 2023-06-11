@@ -391,13 +391,13 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: wechat,weibo,qq
+  sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
   enable: false
-  item: wechat,sina_weibo,email,copy_link
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
 # --------------------------------------
@@ -833,8 +833,8 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
-  icons: false
+  style: flat
+  icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
@@ -898,9 +898,9 @@ lazyload:
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
-#Open_Graph_meta:
-  #enable: false
-  #option:
+Open_Graph_meta:
+  enable: true
+  option:
     # twitter_card:
     # twitter_image:
     # twitter_id:
