@@ -165,12 +165,12 @@ post_copyright:
 reward:
   enable: false
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+     - img: /img/wethat.png
+       link: 
+       text: 微信
+     - img: /img/alipay.png
+       link: 
+       text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
