@@ -4,12 +4,12 @@
 
 # Site
 title: HuaのBlog
-subtitle: ''
-description: ''
-keywords:
-author: HHU
+subtitle: '心所想'
+description: '从心出发 追寻自己'
+keywords: HuaのBlog,心,南一
+author: 烂笔头
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
