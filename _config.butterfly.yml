@@ -10,7 +10,7 @@ nav:
 # Menu 目录
 menu:
    主页: / || fas fa-home
-   归档: /archives/ || fas fa-archive
+   #归档: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
