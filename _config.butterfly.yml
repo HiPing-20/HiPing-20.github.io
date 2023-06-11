@@ -1,13 +1,13 @@
-# Navigation bar settings (導航欄設置)
-# see https://butterfly.js.org/posts/4aa8abbe/##導航欄設置-Navigation-bar-settings
+# Navigation bar settings (导航栏设置)
+# see https://butterfly.js.org/posts/4aa8abbe/##导航栏设置-Navigation-bar-settings
 # --------------------------------------
 
 nav:
   logo: # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: false # 固定导航栏
 
-# Menu 目錄
+# Menu 目录
 menu:
    主页: / || fas fa-home
    归档: /archives/ || fas fa-archive
@@ -19,48 +19,48 @@ menu:
   # Link: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码相关)
 # --------------------------------------
 
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
-highlight_copy: true # copy button
-highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_copy: true # 复制按钮
+highlight_lang: true # 显示代码语言
+highlight_shrink: false # true: 缩小代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
-# Social Settings (社交圖標設置)
+# Social Settings (社交图标设置)
 # formal:
 #   icon: link || the description || color
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
-# Image (圖片設置)
+# Image (图片设置)
 # --------------------------------------
 
-# Favicon（網站圖標）
+# Favicon（网站图标）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
   img: https://s2.loli.net/2023/06/10/PYeft8BxKy2EbjM.jpg
   effect: false
 
-# Disable all banner image
+# Disable all banner image(禁用所有横幅图像)
 disable_top_img: false
 
-# The banner image of home page
+# The banner image of home page(首页横幅图片)
 index_img: https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
 
-# If the banner of page not setting, it will show the top_img
+# If the banner of page not setting, it will show the top_img(如果页面的横幅没有设置，它会显示 top_img)
 default_top_img: https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
 
-# The banner image of archive page
+# The banner image of archive page(归档页面的横幅图像)
 archive_img:
 
-# If the banner of tag page not setting, it will show the top_img
-# note: tag page, not tags page (子標籤頁面的 top_img)
+# If the banner of tag page not setting, it will show the top_img(如果标签页的横幅没有设置，它会显示top_img)
+# note: tag page, not tags page (子标签页面的 top_img)
 tag_img:
 
 # The banner image of tag page
