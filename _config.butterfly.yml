@@ -235,7 +235,7 @@ aside:
       link: https://github.com/HiPing-20
   card_announcement:
     enable: true
-    content: 问题不大
+    content: 问题很大待更新
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
