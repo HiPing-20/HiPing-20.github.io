@@ -64,16 +64,16 @@ archive_img:
 # note: tag page, not tags page (子标签页面的 top_img)
 tag_img:
 
-# The banner image of tag page
+# The banner image of tag page(标签页的横幅图片)
 # format:
 #  - tag name: xxxxx
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
-# note: category page, not categories page (子分類頁面的 top_img)
+# note: category page, not categories page (子分类页面的 top_img)
 category_img:
 
-# The banner image of category page
+# The banner image of category page(类别页面的横幅图像)
 # format:
 #  - category name: xxxxx
 category_per_img:
@@ -229,10 +229,10 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/HiPing-20
+      text: 找到我
+      link: https://ochua.eu.org
   card_announcement:
     enable: true
     content: 问题很大待更新
@@ -681,8 +681,8 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
