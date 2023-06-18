@@ -920,6 +920,18 @@ css_prefix: true
 inject:
   head:
     - <script src="/live2d-widget/autoload.js"></script>
+    # Aplayer 的全局吸底音乐标签收起隐藏
+    - '<style type="text/css">
+        .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+          left: -66px !important;
+          /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+        }
+
+        .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+          left: 0 !important;
+          /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+        }
+      </style>'
   bottom:
    - <div class="aplayer no-destroy" data-id="8485275167" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-mini="true"> </div>
 
