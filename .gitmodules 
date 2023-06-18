@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = /workspaces/HiPing-20.github.io/source/live2d-widget/autoload.js
+  url = git://url-of-source/
