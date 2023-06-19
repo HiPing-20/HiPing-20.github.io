@@ -52,7 +52,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page(首页横幅图片)
-index_img: https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
+index_img: https://s2.loli.net/2023/06/19/vMFVlUegm8htWCk.png
 
 # If the banner of page not setting, it will show the top_img(如果页面的横幅没有设置，它会显示 top_img)
 default_top_img: https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
@@ -882,7 +882,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
@@ -924,7 +924,7 @@ inject:
     - '<style type="text/css">
         .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
           left: -66px !important;
-          /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+          /* 默认情况下缩进左侧66px,只留一点箭头部分 */
         }
 
         .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
