@@ -25,6 +25,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^4.9.0",
     "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^2.0.1",
     "install": "^0.13.0",
     "live2d-widget-model-gf": "^1.0.5",
     "live2d-widget-model-koharu": "^1.0.5",
