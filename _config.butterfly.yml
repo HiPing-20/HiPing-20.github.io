@@ -53,10 +53,12 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page(首页横幅图片)
-index_img: https://s2.loli.net/2023/06/19/vMFVlUegm8htWCk.png
+index_img: 
+#https://s2.loli.net/2023/06/19/vMFVlUegm8htWCk.png
 
 # If the banner of page not setting, it will show the top_img(如果页面的横幅没有设置，它会显示 top_img)
-default_top_img: https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
+default_top_img: transparent
+#https://s2.loli.net/2023/06/07/NIxXFrkUBieA9Py.jpg
 
 # The banner image of archive page(归档页面的横幅图像)
 archive_img:
@@ -643,10 +645,11 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(/images/yituliu/Golden Gate Bridge.jpg)
 
 # Footer Background
-footer_bg: false
+#false
+footer_bg: transparent
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -921,6 +924,7 @@ css_prefix: true
 inject:
   head:
     - <script src="/live2d-widget/autoload.js"></script>
+    - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
 # Aplayer 的全局吸底音乐标签收起隐藏
     - '<style type="text/css">
         .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
