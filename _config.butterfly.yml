@@ -10,7 +10,7 @@ nav:
 # Menu 目录
 menu:
    主页: / || fas fa-home
-   Bangumis: /bangumis/ || fa-solid fa-book-open
+   追番: /bangumis/ || fa-solid fa-book-open
    归档: /archives/ || fas fa-archive
    #playlist: /playlist/ || fas fa-music
   #Tags: /tags/ || fas fa-tags
