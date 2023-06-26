@@ -35,6 +35,6 @@
     "npm": "^9.7.2"
   },
   "devDependencies": {
-    "workbox-build": "^4.3.1"
+    "workbox-build": "^7.0.0"
   }
 }
