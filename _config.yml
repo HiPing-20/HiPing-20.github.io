@@ -107,6 +107,7 @@ theme: butterfly
 deploy:
   type: ''
 
+#aplayer
 aplayer:
   meting: true
   asset_inject: false
