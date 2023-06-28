@@ -236,8 +236,9 @@ aside:
       icon: fab fa-github
       text: 找到我
       link: https://ochua.eu.org
+  #公告
   card_announcement:
-    enable: true
+    enable: false
     content: 问题很大待更新
   card_recent_post:
     enable: true
@@ -257,8 +258,9 @@ aside:
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # 不要修改设置，除非你知道它是如何工作的
     card_tags color: true
+#归档
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: YYYY MMMM # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -942,6 +944,29 @@ inject:
   bottom:
   #aplayer
    - <div class="aplayer no-destroy" data-id="8485275167" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-mini="true" lrcType="-1"> </div>
+
+
+# electric_clock
+# see https://anheyu.com/posts/fc18.html
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+  # - /posts/
+  # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: b256802635294537a9d2e373850ea6c3
+  gaud_map_key: b09cd6a2cd03a5a1bff8bf9fd8682934
+  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 # CDN
 # Don't modify the following settings unless you know how they work
