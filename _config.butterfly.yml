@@ -966,7 +966,7 @@ electric_clock:
   qweather_key: b256802635294537a9d2e373850ea6c3
   gaud_map_key: b09cd6a2cd03a5a1bff8bf9fd8682934
   default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
-  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
+  rectangle: 112.607693, 26.900358 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 # CDN
 # Don't modify the following settings unless you know how they work
