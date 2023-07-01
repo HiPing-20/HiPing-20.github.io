@@ -114,7 +114,8 @@ favicon: /img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://s2.loli.net/2023/06/10/PYeft8BxKy2EbjM.jpg
+  #https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
   effect: false
 
 # Disable all banner image
@@ -188,10 +189,11 @@ post_meta:
 # wordcount (字数统计)
 # see https://butterfly.js.org/posts/ceeb73f/#字数统计
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
 
 # Display the article introduction on homepage
 # 1: description
@@ -221,7 +223,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 湖南
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -400,11 +402,11 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2021
   custom_text:
   runtime:
-    enable: true
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    enable: false
+    launch_time: 01/28/2021 00:01:30 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -417,7 +419,7 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://anheyu.com/
+      - link: https://ochua.eu.org/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       # - link: https://www.dogecloud.com/
@@ -778,15 +780,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 01/28/2021 00:01:30
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -957,9 +959,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 从心出发
+  subTitle: 追寻自己
+  siteText: ochua.eu.org
   category:
     - name: 前端
       path: /categories/前端开发/
@@ -981,7 +983,7 @@ home_top:
     enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
-  banner:
+    #banner:
     tips: 新品主题
     title: Theme-AnZhiYu
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
@@ -1055,7 +1057,7 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false
+  enable: true
   default: 晚上好👋
   list:
     - greeting: 晚安😴

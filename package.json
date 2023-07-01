@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "g": "^2.0.1",
     "hexo": "^6.3.0",
     "hexo-bangumis": "^1.0.7",
@@ -34,7 +35,9 @@
     "install": "^0.13.0",
     "live2d-widget-model-gf": "^1.0.5",
     "live2d-widget-model-koharu": "^1.0.5",
-    "npm": "^9.7.2"
+    "npm": "^9.7.2",
+    "or": "^0.2.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "workbox-build": "^7.0.0"
