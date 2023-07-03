@@ -46,7 +46,7 @@ favicon: /img/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: https://s2.loli.net/2023/06/10/PYeft8BxKy2EbjM.jpg
+  img: https://cdn.jsdelivr.net/gh/HiPing-20/PIC/%E5%A4%B4%E5%83%8F.jpg
   effect: false
 
 # Disable all banner image(禁用所有横幅图像)
@@ -647,7 +647,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://s2.loli.net/2023/06/26/Tni2hO4fEbCYBqW.jpg)
+background: url(https://cdn.jsdelivr.net/gh/HiPing-20/PIC/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg)
 
 # Footer Background
 #false
