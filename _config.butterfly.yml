@@ -953,6 +953,10 @@ inject:
     - <script src="/live2d-widget/autoload.js"></script>
     #aplayer
     - <div class="aplayer no-destroy" data-id="8485275167" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-mini="true" lrcType="-1"> </div>
+    # 自定义js
+    - <script async data-pjax src="/js/anzhiyu.js"></script>
+    - <script async data-pjax src="/js/anzhiyufunction.js"></script>
+    - <script async src="/js/anzhiyuOnlyOne.js"></script>
 
 
 # electric_clock
@@ -997,6 +1001,9 @@ CDN:
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
+  aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+  aplayer_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+  meting_js: https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js
 
   option:
     # main_css:
