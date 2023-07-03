@@ -41,6 +41,6 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "workbox-build": "^4.3.1"
+    "workbox-build": "^7.0.0"
   }
 }
