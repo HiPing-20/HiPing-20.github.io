@@ -783,7 +783,6 @@ subtitle:
   - 多看书，多看报；少玩电脑，多睡觉
   - 不见钱塘潮信来，何日能知我是我
   - 是啊，欲买桂花同载酒，终不似，少年游
-  - 不要为了越狱而放弃升级的乐趣
   - ！！！说着反要我以所，心开不为因
 
 # Loading Animation (加载动画)
@@ -797,7 +796,7 @@ preloader:
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: /css/progress_bar.css
   avatar: # 自定义头像
-  
+
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
