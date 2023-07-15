@@ -952,7 +952,7 @@ inject:
   bottom:
     - <script src="/live2d-widget/autoload.js"></script>
     #aplayer
-    - <div class="aplayer no-destroy" data-id="8485275167" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-mini="true" lrcType="-1"> </div>
+    - <div class="aplayer no-destroy" data-id="8485275167" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-mini="true" data-lrcType="0"> </div>
     # 自定义js
     - <script async data-pjax src="/js/anzhiyu.js"></script>
     - <script async data-pjax src="/js/anzhiyufunction.js"></script>
