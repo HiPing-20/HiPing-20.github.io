@@ -4,6 +4,7 @@ date: 2022-10-20 22:06:17
 comments: true
 aside: false
 top_img: false
+password: 114514
 ---
 
 > 终于为博客安装上了便携小空调
