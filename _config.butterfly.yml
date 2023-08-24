@@ -15,7 +15,7 @@ menu:
    #playlist: /playlist/ || fas fa-music
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
-   小空调: /air-conditioner/ || fa-solid fa-air-conditioner
+   小空调: /air-conditioner/ || fa-solid fa-fan
     # List||fas fa-list
     # Music: /music/ || fas fa-music
     # Movie: /movies/ || fas fa-video
