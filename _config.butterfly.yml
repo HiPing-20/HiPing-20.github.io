@@ -155,7 +155,7 @@ toc:
   post: true
   page: true
   number: true
-  expand: false
+  expand: true
   style_simple: false # for post
   scroll_percent: true
 
@@ -288,7 +288,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -329,7 +329,7 @@ darkmode:
   end: # 22
 
 # show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -527,10 +527,10 @@ artalk:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: false
+chat_hide_show: true
 
 # chatra
 # https://chatra.io/
