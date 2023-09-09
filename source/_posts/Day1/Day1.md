@@ -1,5 +1,7 @@
 ---
 title: Day1
+cover: https://cdn.jsdelivr.net/gh/HiPing-20/PIC/%E7%8C%AB.jpg
+update: 2023.09.08 23:24:25
 abbrlink: d30473e4
 date: 2023-09-08 04:19:54
 tags: 开学新体验
