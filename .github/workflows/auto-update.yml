@@ -2,7 +2,7 @@ name: Auto update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/60 * * * *' # Every 30 minutes
+    - cron: '* * * L 1-12 *' # Every 30 minutes
 
 jobs:
   meta:
